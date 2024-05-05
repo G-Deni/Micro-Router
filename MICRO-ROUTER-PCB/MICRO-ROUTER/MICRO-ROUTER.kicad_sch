@@ -3552,6 +3552,12 @@
 		)
 	)
 	(junction
+		(at 238.76 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ec57f5-761c-47ad-a702-e6ee7435f3a1")
+	)
+	(junction
 		(at 27.94 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3791,6 +3797,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 125.73) (xy 241.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3cadcd-64c1-4d15-8689-02a03a73610f")
+	)
+	(wire
+		(pts
 			(xy 110.49 176.53) (xy 121.92 176.53)
 		)
 		(stroke
@@ -3828,6 +3844,16 @@
 			(type default)
 		)
 		(uuid "a89b1fdd-e4bc-4da7-bf15-cd3a8901b144")
+	)
+	(wire
+		(pts
+			(xy 237.49 125.73) (xy 238.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ddec48-f17b-4770-b811-fd9c4e37d8a0")
 	)
 	(wire
 		(pts
@@ -4017,6 +4043,28 @@
 			)
 		)
 	)
+	(global_label "URAT-RX"
+		(shape input)
+		(at 184.15 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c9594e7-5e2b-40ca-823d-d4a789bcb61e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.8438 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SS RX-"
 		(shape input)
 		(at 166.37 123.19 270)
@@ -4105,6 +4153,50 @@
 			)
 		)
 	)
+	(global_label "URAT-TX"
+		(shape input)
+		(at 254 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4ae5981-e6c6-4c7d-818a-d2ee9c037fdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.3914 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "URAT-RX"
+		(shape input)
+		(at 254 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c354490b-8f4c-481a-848a-09efbefc8910")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.6938 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SS RX+"
 		(shape input)
 		(at 40.64 133.35 0)
@@ -4145,6 +4237,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "URAT-TX"
+		(shape input)
+		(at 184.15 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca95a53c-145d-4167-af60-214e41c8bc44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.5414 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6434,6 +6548,72 @@
 			(project "MICRO-ROUTER"
 				(path "/ebd99a91-a0ff-4b6f-9899-bd1b2d3fbcb2"
 					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "defebf35-0ba2-4529-b243-9ff576f4ccb4")
+		(property "Reference" "#PWR024"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf6adf4e-972a-4f32-b247-f8373dab87e5")
+		)
+		(instances
+			(project "MICRO-ROUTER"
+				(path "/ebd99a91-a0ff-4b6f-9899-bd1b2d3fbcb2"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
