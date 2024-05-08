@@ -1,4 +1,4 @@
-23150629073297759
+23159204249419621
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53662,12 +53662,47 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Custom Footprints
+8Devices-Carambola2
+
+
+0
+52
+52
+Custom Footprints
+8Devices-Jalapeno
+
+
+0
+70
+70
+Custom Footprints
+SOP127P600X175-9N
+
+
+0
+9
+9
+Custom Footprints
+TP4056
+
+
+0
+9
+9
+Custom Footprints
 TP4056-Module
 
 
 0
 6
 6
+Custom Footprints
+TYPE-C-31-M-12
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
