@@ -1,4 +1,2 @@
 # Micro-Router
-The goal of this project was to compleat carrier board for the [8devices jalapeno](https://shop.8devices.com/Jalapeno) in a 8 Hour flight.
-It no the most efficent or feture rich. It is ment to be as cheap and easy to assemble as possible. This allow the end user to make a few and creat easy to deploy mesh nets.
-the charger is a usb c varient of the TP4056 breakout which is readily availibe.
+This project sets out to solve a simple but nitche problem, when using any form of hotspot in a large area covergae can suffer. Using a mesh-network of Micro-Routers coverage area can be extended for a short time without running any cables. Each Micro-Router uses a [Carambola2](https://www.8devices.com/products/carambola-2) SOM running [OpenWRT](https://openwrt.org/), A 3.3v TP4056 charging circut, and has serial output over usb using a CP2102N-Axx-xQFN20. 
