@@ -5159,23 +5159,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -5.842 -6.35 0)
+			(property "Reference" "U2"
+				(at 3.6024 6.35 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" " XC9142B33DMR-G "
+				(at 5.5075 6.35 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom Footprints:TP4056"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5212,15 +5214,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text " XC9142B33DMR-G "
-					(at 4.826 -6.604 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(color 0 132 132 1)
-						)
 					)
 				)
 				(pin input line
@@ -11366,7 +11359,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14a60bcb-a682-4bf2-a818-97cff6796253")
 		(property "Reference" "U2"
 			(at 69.85 70.9124 90)
@@ -11377,8 +11369,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 69.85 72.8175 90)
+		(property "Value" " XC9142B33DMR-G "
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +11378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom Footprints:TP4056"
+		(property "Footprint" ""
 			(at 63.5 67.31 0)
 			(effects
 				(font
@@ -12138,7 +12130,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FS8205A:SOP65P640X120-8N"
+		(property "Footprint" "Custom Footprints:FS8205A"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -13014,7 +13006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
 			(at 387.35 181.61 0)
 			(effects
 				(font
@@ -16632,7 +16624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142-0711-821:142-0711-821"
+		(property "Footprint" "Custom Footprints:SMA 142-0711-821"
 			(at 233.68 41.91 0)
 			(effects
 				(font
