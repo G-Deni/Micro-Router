@@ -3933,6 +3933,62 @@
 					)
 				)
 			)
+			(symbol "FS8205A_1_0"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Custom Symbols:PCM12SMTR"
 			(exclude_from_sim no)
@@ -11378,7 +11434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom Footprints:XC8107AC20MR-G"
 			(at 63.5 67.31 0)
 			(effects
 				(font
@@ -12293,6 +12349,15 @@
 		(pin "4"
 			(uuid "cc376fda-97de-4006-a0a4-25d873313b9c")
 		)
+		(pin "3"
+			(uuid "38e6a12a-c7d0-4537-8990-38aacc647fb5")
+		)
+		(pin "7"
+			(uuid "ae3a1826-04ef-4de7-abb0-f5b40793a2a7")
+		)
+		(pin "8"
+			(uuid "9d48e69c-5272-470f-b8ed-fef3c606d38f")
+		)
 		(instances
 			(project "MICRO-ROUTER"
 				(path "/ebd99a91-a0ff-4b6f-9899-bd1b2d3fbcb2"
@@ -12989,7 +13054,7 @@
 		(fields_autoplaced yes)
 		(uuid "41e7525c-416f-40fa-95b6-d1d9642579a8")
 		(property "Reference" "U3"
-			(at 357.7941 182.88 0)
+			(at 357.7941 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12998,7 +13063,7 @@
 			)
 		)
 		(property "Value" "CP2102N-Axx-xQFN20"
-			(at 357.7941 185.42 0)
+			(at 357.7941 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Custom Footprints:PCM12SMTR"
 			(at 109.22 146.99 0)
 			(effects
 				(font
