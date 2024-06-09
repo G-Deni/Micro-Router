@@ -9420,7 +9420,7 @@
 	)
 	(text "LED Specs \nUnavailable\nValue May\nChange"
 		(exclude_from_sim no)
-		(at 197.612 111.76 0)
+		(at 195.072 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
