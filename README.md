@@ -5,20 +5,24 @@ Each Micro-Router uses a [Carambola2](https://www.8devices.com/products/carambol
 
 SOM:
 
-[Carambola2](https://www.8devices.com/products/carambola-2)-NOTE this project uses the Carambola2 for its low poer draw on paper it should work with the Carambola3 at the cost of less runtime
+  [Carambola2](https://www.8devices.com/products/carambola-2)-NOTE this project uses the Carambola2 for its low poer draw on paper it should work with the Carambola3 at the cost of less runtime
 
 OS:
+
   OpenWRT
 
 Battery Capacity 
+
   TBD
   
 Internaly exposed pins include:
+
   6 GPIO
   SPI Header
   Speaker - Uses one of the GPIO
 
 Ports include:
+
   USB-A - Media share capacity
   USB-C - Charging and UART
   2x RJ45 - LAN and WAN
