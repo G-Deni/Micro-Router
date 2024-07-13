@@ -549,10 +549,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../OUTPUT/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../OUTPUT/MICRO-ROUTER.step",
       "svg": "",
       "vrml": ""
     },
