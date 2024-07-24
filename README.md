@@ -1,6 +1,8 @@
 # Micro-Router
 This project sets out to solve a simple but nitche problem, when using any form of hotspot in a large area covergae can suffer. Using a mesh-network of Micro-Routers coverage area can be extended for a short time without running any cables. This is achived by a custom OpenWRT configuration and a onboard battery that should yeild ~16hrs of run time.
 
+![alt text](https://github.com/G-Deni/Micro-Router/blob/main/IMAGES/TOP-RENDER.png)
+
 
 ## Fetures 
 
