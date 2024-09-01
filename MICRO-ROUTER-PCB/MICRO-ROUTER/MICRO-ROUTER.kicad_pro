@@ -552,7 +552,7 @@
       "plot": "../OUTPUT/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../OUTPUT/MICRO-ROUTER.step",
+      "step": "../OUTPUT/REV00/REV00.step",
       "svg": "",
       "vrml": ""
     },

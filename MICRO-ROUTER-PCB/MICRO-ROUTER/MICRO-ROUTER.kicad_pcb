@@ -7073,7 +7073,7 @@
 		)
 		(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/PCM12SMTR.STEP"
 			(offset
-				(xyz 0 -0.03999999851 0.7099999679)
+				(xyz 0 -0.04 0.01)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10353,6 +10353,7 @@
 			)
 		)
 		(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/USB-A.STEP"
+			(hide yes)
 			(offset
 				(xyz 3.5 -13 2.5)
 			)
@@ -25196,7 +25197,7 @@
 		)
 		(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/RJ45 5-2301996-6.stp"
 			(offset
-				(xyz 11.5 -17 -0.5)
+				(xyz 11.5 -17 0)
 			)
 			(scale
 				(xyz 1 1 1)
