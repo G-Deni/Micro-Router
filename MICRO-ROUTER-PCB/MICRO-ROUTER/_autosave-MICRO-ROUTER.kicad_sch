@@ -11199,7 +11199,7 @@
 	)
 	(global_label "IR 3.3v"
 		(shape input)
-		(at 388.62 118.11 0)
+		(at 387.35 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11209,7 +11209,7 @@
 		)
 		(uuid "9e1dd417-83f8-426d-8486-66de8ce74fc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 398.439 118.11 0)
+			(at 397.169 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +11750,6 @@
 	(hierarchical_label "ANT1"
 		(shape input)
 		(at 245.11 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12596,7 +12595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 311.912 86.36 90)
 			(effects
 				(font
@@ -15178,7 +15177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 311.912 104.14 90)
 			(effects
 				(font
@@ -20037,7 +20036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.09 78.232 90)
 			(effects
 				(font
